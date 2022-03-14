@@ -7,7 +7,7 @@ import sys, os
 import random
 import json
 import torch
-sys.path.append(os.getcwd().replace("src/dialogue_system/run",""))
+sys.path.append(os.getcwd().replace("C:\Users\ttb\Desktop\acl2018-mds",""))
 
 from src.dialogue_system.agent import AgentRandom
 from src.dialogue_system.agent import AgentDQN
